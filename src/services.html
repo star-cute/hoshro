@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="output.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+<!-- Header -->
+<header class="flex justify-between items-center h-[100px] px-6 bg-white shadow-md">
+    <!-- دکمه تماس -->
+    <div class="flex items-center">
+      <button class="bg-blue-500 text-white py-2 px-4 rounded-lg hidden md:block">تماس بگیرید</button>
+    </div>
+  
+    <!-- منو وسط -->
+    <nav class="flex-1 flex justify-center">
+      <ul class="hidden md:flex space-x-6">
+        <li><a href="blogs.html" class="hover:text-blue-600">وبلاگ</a></li>
+  <li><a href="work.html" class="hover:text-blue-600">همکاری با ما</a></li>
+  <li><a href="contact.html" class="hover:text-blue-600">ارتباط با ما</a></li>
+  <li><a href="about.html" class="hover:text-blue-600">درباره ما</a></li>
+  <li><a href="#" class="hover:text-blue-600">سرویس ها</a></li>
+      </ul>
+    </nav>
+  
+    <!-- لوگو -->
+    <div class="flex items-center">
+      <a href="index.html"><img src="img/LOGO (2).png" alt="لوگو" class="h-10"></a>
+    </div>
+  
+    <!-- همبرگر منو موبایل -->
+    <div class="md:hidden flex items-center">
+      <button id="menu-btn" class="focus:outline-none">
+        <svg class="w-6 h-6 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+    </div>
+  </header>
+  
+  <!-- منو موبایل -->
+  <div id="mobile-menu" class="hidden md:hidden bg-white shadow-md">
+    <ul class="flex flex-col p-4 space-y-3">
+      <li><a href="#" class="text-black no-underline hover:text-blue-500">وبلاگ</a></li>
+      <li><a href="#" class="text-black no-underline hover:text-blue-500">همکاری با ما</a></li>
+      <li><a href="contact.html" class="text-black no-underline hover:text-blue-500">ارتباط با ما</a></li>
+      <li><a href="about.html" class="text-black no-underline hover:text-blue-500">درباره ما</a></li>
+      <li><a href="#" class="text-black no-underline hover:text-blue-500">سرویس ها</a></li>
+      <li><button class="bg-blue-500 text-blue-200 py-2 px-4 rounded-lg w-full">تماس بگیرید</button></li>
+    </ul>
+  </div>
+
+
+<div class="max-w-[1200px] mx-auto px-6 py-12">
+  <div class="flex flex-col lg:flex-row items-start gap-10">
+
+    <!-- Left Image (Bigger) -->
+    <div class="w-full lg:w-1/2">
+      <img 
+        src="img/imageee.png" 
+        class="w-full h-auto rounded-2xl object-cover" 
+        alt="Left Section Image"
+      >
+    </div>
+
+    <!-- Right Image + Button -->
+    <div class="w-full lg:w-1/2 flex flex-col items-end gap-6">
+
+   
+      <section class="w-full flex flex-col items-center justify-center text-center mt-2 px-4">
+
+    <!-- Title -->
+    <h2 class="text-4xl md:text-5xl font-extrabold text-black leading-tight">
+      با
+      <span class="text-blue-700">هوشرو</span>
+      آینده را هوشمند بساز
+    </h2>
+
+    <!-- Subtitle -->
+    <p class="mt-6 max-w-3xl text-base md:text-lg text-gray-800 leading-relaxed font-medium">
+      در هوشرو ما فناوری هوش مصنوعی را به ابزارهای کاربردی تبدیل می‌کنیم؛
+      سرویس‌هایی که تصمیم‌گیری را ساده‌تر و کار شما را هوشمندتر می‌سازند
+    </p>
+
+  </section>
+
+      <!-- Button (Right aligned) -->
+      <a 
+        href="contact.html" 
+        class="bg-blue-600 text-white font-bold px-8 py-3 rounded-xl shadow"
+      >
+        ارتباط با ما
+      </a>
+
+    </div>
+
+  </div>
+</div>
+
+    
+<!-- Services Section -->
+<section class="bg-gray-100 py-20">
+  <div class="container mx-auto px-4 text-center">
+    <h2 class="text-3xl font-bold mb-12">سرویس‌های ما</h2>
+
+    <div class="grid sm:grid-cols-1 md:grid-cols-3 gap-8">
+
+      <!-- Card 1 -->
+      <div class="flex flex-col bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
+        <img src="img/Rectangle 18.png" class="w-full object-cover" alt="">
+        <div class="p-6">
+          <h3 class="font-bold text-xl mb-2">AutoFlow</h3>
+          <p class="text-gray-600 leading-7">اتوماسیون فرآیندها و سیستم‌های خودکار</p>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="flex flex-col bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
+        <img src="img/Rectangle 18 (1).png" class="w-full object-cover" alt="">
+        <div class="p-6">
+          <h3 class="font-bold text-xl mb-2">DataVision</h3>
+          <p class="text-gray-600 leading-7">تحلیل و هوشمندسازی داده‌ها</p>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="flex flex-col bg-white rounded-3xl overflow-hidden shadow-md hover:shadow-lg transition-shadow duration-300">
+        <img src="img/Rectangle 18 (2).png" class="w-full object-cover" alt="">
+        <div class="p-6">
+          <h3 class="font-bold text-xl mb-2">ERP</h3>
+          <p class="text-gray-600 leading-7">مدیریت منابع سازمانی هوشمند</p>
+        </div>
+      </div>
+
+    </div>
+
+    <a href="#" class="inline-block mt-10 font-bold text-blue-700 hover:underline">مشاهده همه</a>
+  </div>
+
+
+
+    </div>
+  </div>
+
+</section>
+
+        
+        <!-- بخش ویژگی‌ها -->
+        <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+        <h3 class="text-2xl md:text-3xl font-bold mb-10">چرا ما را انتخاب کنید؟</h3>
+        
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-gray-700">
+        <div class="p-6 shadow rounded-xl bg-gray-50">
+        <h4 class="font-bold text-lg mb-3">سرعت عمل بالا</h4>
+        <p class="text-sm leading-relaxed">راهکارهای ما سریع، دقیق و قابل اعتماد هستند.</p>
+        </div>
+        <div class="p-6 shadow rounded-xl bg-gray-50">
+        <h4 class="font-bold text-lg mb-3">دقت در پردازش</h4>
+        <p class="text-sm leading-relaxed">سرویس‌ها با کمترین خطا و بالاترین سطح کیفیت.</p>
+        </div>
+        <div class="p-6 shadow rounded-xl bg-gray-50">
+        <h4 class="font-bold text-lg mb-3">پشتیبانی حرفه‌ای</h4>
+        <p class="text-sm leading-relaxed">همیشه در کنار شما هستیم تا بهترین نتیجه حاصل شود.</p>
+        </div>
+        </div>
+        </div>
+        </section>
+        
+        
+        <!-- بخش آخر -->
+        <section id="contact" class="bg-gray-900 text-gray-300 py-10">
+        <div class="max-w-7xl mx-auto px-6 text-center space-y-4">
+        </div>
+        </section>
+    </section>
+
+
+
+    <section class="container mx-auto px-4 py-12">
+        <!-- تیتر اصلی -->
+        <section class="mb-16">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6 text-center">
+                چیزی فراتر از یک سرویس دهنده
+            </h1>
+            <p class="text-lg md:text-xl text-gray-700 max-w-4xl mx-auto text-center leading-relaxed">
+                Hoshro را تنها یک سرویس دریافت نمی‌کنید؛ شما مجموعه‌ای از راهکارهای مناسب، پشتیبانی مداوم، امنیت پیشرفته و نوآوری مستمر را در کنار هم دارید تا رشد سازمان‌تان مداوم‌تر و سریع‌تر پیش برود.
+            </p>
+        </section>
+
+        <!-- جداکننده -->
+        <div class="section-divider"></div>
+
+        <!-- بخش ویژگی‌ها -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- ویژگی ۱: راهکارهای مناسب -->
+            <div class="feature-card border-blue-500 pr-6 md:pr-8 py-4">
+                <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center">
+                    <span class="ml-3">
+                        <svg class="w-6 h-6 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"></path>
+                        </svg>
+                    </span>
+                    راهکارهای مناسب
+                </h2>
+                <p class="text-gray-700 mb-3">
+                    سرویس‌ها دقیقاً منطبق بر نیازها و اهداف سازمان شما طراحی می‌شوند.
+                </p>
+                <ul class="space-y-2 text-gray-600">
+                    <li class="flex items-start">
+                        <svg class="w-5 h-5 text-green-500 ml-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <span>طراحی سفارشی بر اساس نیازهای کسب‌وکار</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-5 h-5 text-green-500 ml-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <span>انطباق کامل با فرآیندهای سازمانی</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-5 h-5 text-green-500 ml-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <span>راهکارهای مقیاس‌پذیر برای رشد آینده</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- ویژگی ۲: نوآوری مستمر -->
+            <div class="feature-card border-purple-500 pr-6 md:pr-8 py-4">
+                <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center">
+                    <span class="ml-3">
+                        <svg class="w-6 h-6 text-purple-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                        </svg>
+                    </span>
+                    نوآوری مستمر
+                </h2>
+                <p class="text-gray-700 mb-3">
+                    با جدیدترین فناوری‌ها، همواره یک گام جلوتر از رقبا حرکت می‌کنید.
+                </p>
+                <ul class="space-y-2 text-gray-600">
+                    <li class="flex items-start">
+                        <svg class="w-5 h-5 text-green-500 ml-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <span>به‌روزرسانی مستمر با آخرین فناوری‌ها</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-5 h-5 text-green-500 ml-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <span>تحقیق و توسعه مداوم برای بهبود خدمات</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-5 h-5 text-green-500 ml-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <span>پیشگامی در ارائه راهکارهای نوآورانه</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- ویژگی ۳: امنیت پیشرفته -->
+            <div class="feature-card border-green-500 pr-6 md:pr-8 py-4">
+                <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center">
+                    <span class="ml-3">
+                        <svg class="w-6 h-6 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
+                        </svg>
+                    </span>
+                    امنیت پیشرفته
+                </h2>
+                <p class="text-gray-700 mb-3">
+                    داده و زیرساخت‌های شما با بالاترین استانداردها محافظت می‌شوند.
+                </p>
+                <ul class="space-y-2 text-gray-600">
+                    <li class="flex items-start">
+                        <svg class="w-5 h-5 text-green-500 ml-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <span>رمزنگاری داده‌ها در سطح پیشرفته</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-5 h-5 text-green-500 ml-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <span>مانیتورینگ ۲۴ ساعته و شناسایی تهدیدات</span>
+                    </li>
+                    <li class="flex items-start">
+                        <svg class="w-5 h-5 text-green-500 ml-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                        </svg>
+                        <span>مطابقت با استانداردهای امنیتی بین‌المللی</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+       
+
+
+
+
+<!-- Footer -->
+<footer class="bg-[#00224f] text-white py-16">
+    <div class="container mx-auto px-4 grid sm:grid-cols-1 md:grid-cols-4 gap-10">
+  
+      <!-- ستون 1: عضویت در خبرنامه -->
+      <div class="text-left">
+        <h3 class="font-bold text-lg mb-4">عضویت در خبرنامه</h3>
+        <div class="flex items-center bg-white rounded-2xl overflow-hidden w-full max-w-sm">
+          <input type="email" class="flex-1 px-4 py-2 text-gray-700 outline-none" placeholder="ایمیل خود را وارد کنید">
+          <span class="bg-blue-600 p-3 flex items-center justify-center">
+            <!-- فلش SVG آبی -->
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </span>
+        </div>
+        <p class="mt-3 text-sm text-gray-300">خبرهای جدید را از دست ندهید</p>
+      </div>
+  
+      <!-- ستون 2: راه‌های ارتباطی -->
+      <div class="text-left">
+        <h3 class="font-bold text-lg mb-4">راه‌های ارتباطی</h3>
+        <ul class="space-y-2 text-gray-300">
+          <li>آدرس: تهران، خیابان تست</li>
+          <li>ایمیل: <a href="mailto:Hoshro@gmail.com" class="hover:text-blue-400 transition-colors">Hoshro@gmail.com</a></li>
+          <li>تلفن: 021-000000</li>
+        </ul>
+      </div>
+  
+      <!-- ستون 3: لینک‌های سریع -->
+      <div class="text-left">
+        <h3 class="font-bold text-lg mb-4">دسترسی سریع</h3>
+        <ul class="space-y-2 text-gray-300">
+          <li><a href="#" class="hover:text-blue-400 transition-colors">درباره ما</a></li>
+          <li><a href="#" class="hover:text-blue-400 transition-colors">ارتباط با ما</a></li>
+          <li><a href="#" class="hover:text-blue-400 transition-colors">وبلاگ</a></li>
+          <li><a href="#" class="hover:text-blue-400 transition-colors">سرویس‌ها</a></li>
+        </ul>
+      </div>
+  
+      <!-- ستون 4: لوگو و توضیح شرکت -->
+      <div class="text-left flex flex-col items-start">
+        <img src="img/logo.png" alt="Hoshro Logo" class="h-20 w-auto mb-4 ">
+        <p class="text-gray-300 leading-6 max-w-xs">
+          هوشرو یک مجموعه نوآور در حوزه فناوری‌های هوشمند است که با استفاده از راهکارهای مبتنی بر داده و اتوماسیون، کسب‌وکار شما را هوشمند می‌کند.
+        </p>
+      </div>
+  
+    </div>
+  
+    <p class="text-center text-gray-400 mt-10 text-sm">© 2025 Hoshro. کلیه حقوق محفوظ است.</p>
+  </footer>
+
+</body>
+</html>

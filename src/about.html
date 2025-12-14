@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about us</title>
+    <link rel="stylesheet" href="output.css">
+    <script src="script.js"></script>
+</head>
+<body>
+  <div class="bg-white text-gray-800">
+    <header class="flex justify-between items-center h-[100px] px-6 bg-white shadow-md">
+        <!-- دکمه تماس -->
+        <div class="flex items-center">
+          <button class="bg-blue-500 text-white py-2 px-4 rounded-lg hidden md:block">تماس بگیرید</button>
+        </div>
+      
+        <!-- منو وسط -->
+        <nav class="flex-1 flex justify-center">
+          <ul class="hidden md:flex space-x-6">
+            <li><a href="blogs.html" class="hover:text-blue-600">وبلاگ</a></li>
+      <li><a href="work.html" class="hover:text-blue-600">همکاری با ما</a></li>
+      <li><a href="contact.html" class="hover:text-blue-600">ارتباط با ما</a></li>
+      <li><a href="about.html" class="hover:text-blue-600">درباره ما</a></li>
+      <li><a href="services.html" class="hover:text-blue-600">سرویس ها</a></li>
+          </ul>
+        </nav>
+      
+        <!-- لوگو -->
+        <div class="flex items-center">
+          <a href="index.html"><img src="img/LOGO (2).png" alt="لوگو" class="h-10"></a>
+        </div>
+      
+        <!-- همبرگر منو موبایل -->
+        <div class="md:hidden flex items-center">
+          <button id="menu-btn" class="focus:outline-none">
+            <svg class="w-6 h-6 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+      </header>
+      
+      <!-- منو موبایل -->
+      <div id="mobile-menu" class="hidden md:hidden bg-white shadow-md">
+        <ul class="flex flex-col p-4 space-y-3">
+          <li><a href="blogs.html" class="text-black no-underline hover:text-blue-500">وبلاگ</a></li>
+          <li><a href="#" class="text-black no-underline hover:text-blue-500">همکاری با ما</a></li>
+          <li><a href="contact.html" class="text-black no-underline hover:text-blue-500">ارتباط با ما</a></li>
+          <li><a href="about.html" class="text-black no-underline hover:text-blue-500">درباره ما</a></li>
+          <li><a href="services.html" class="text-black no-underline hover:text-blue-500">سرویس ها</a></li>
+          <li><button class="bg-blue-500 text-blue-200 py-2 px-4 rounded-lg w-full">تماس بگیرید</button></li>
+        </ul>
+      </div>
+
+
+
+<section class="w-full py-8 md:py-14 bg-transparent">
+<div class="container mx-auto px-6 flex flex-col lg:flex-row items-start gap-10">
+
+
+<!-- Left Image -->
+<div class="w-full lg:w-1/2 flex justify-center">
+<img
+src="img/erasebg-transformed 2.png"
+class="w-[95%] md:w-full h-auto object-cover"
+alt="Left Section Image"
+>
+</div>
+
+
+<!-- Right Text -->
+<div class="w-full lg:w-1/2 text-right mt-20 md:mt-0">
+<p class="text-blue-700 font-semibold text-sm md:text-base mb-1 mt-30">درباره هوشروه</p>
+<h2 class="text-3xl md:text-4xl font-bold mb-3 leading-tight">داستان ما و آنچه می‌سازیم</h2>
+<p class="text-gray-700 text-sm md:text-base leading-7">
+ما در Hoshro باور داریم که فناوری باید ساده، قابل اعتماد و ارزش‌آفرین باشد. ماموریت ما کمک به سازمان‌هاست تا با استفاده از داده و هوش مصنوعی فرآیندهایشان را بهینه کنند و سریع‌تر به اهدافشان برسند.
+</p>
+</div>
+</div>
+</section>
+
+
+<section class="max-w-[1300px] mx-auto px-4 mt-32 md:mt-25 relative z-30">
+
+
+<div class="w-full">
+<!-- Two-card layout -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
+
+
+<!-- Small Card (1 column) -->
+<div class="bg-white rounded-2xl shadow-md p-6 relative border border-gray-200 h-full flex flex-col justify-start items-center">
+<img src="img/shield-tick.png" class="w-14 absolute top-4 right-4 bg-blue-950 p-2 rounded-xl" alt="">
+<h3 class="font-bold text-xl mt-20 text-gray-900 text-center">آینده ها</h3>
+<p class="text-gray-700 leading-7 mt-3 text-sm md:text-base">
+ما آینده‌ای را می‌سازیم که در آن فناوری هوشمند، بازوی اصلی رشد و نوآوری سازمان‌ها باشد.
+</p>
+</div>
+
+
+<!-- Bigger Card (2 columns) -->
+<div class="bg-white rounded-2xl shadow-md p-8 relative border border-gray-200 h-full lg:col-span-2 flex flex-col justify-start">
+<img src="img/cyber-eye-3.png" class="w-16 absolute top-4 right-4 bg-blue-950 p-3 rounded-xl" alt="">
+<h3 class="font-bold text-2xl mt-15 text-gray-900 text-right">ماموریت ها</h3>
+<p class="text-gray-700 leading-8 mt-4 text-sm md:text-base">
+ماموریت Hoshro تبدیل پیچیدگی‌های فنی به راهکارهای ساده و کاربردی است. ما با ترکیب دانش عمیق در حوزه هوش مصنوعی، تحلیل داده‌ها و توسعه نرم‌افزار، بستری فراهم می‌کنیم که سازمان‌ها بتوانند بدون دغدغه، فرآیندهای خود را بهینه کرده، تصمیم‌های دقیق‌تری بگیرند و از فرصت‌های جدید بازار بهره‌مند شوند.
+</p>
+<p class="text-gray-700 leading-8 mt-4 text-sm md:text-base">
+هدف ما این است که فناوری نه یک مانع، بلکه ابزاری قدرتمند برای نوآوری، سرعت و تصمیم‌گیری هوشمند در دسترس تمام سازمان‌ها قرار گیرد.
+</p>
+</div>
+</div>
+</div>
+</section>
+</div>
+
+<div class="w-full max-w-7xl mt-25">
+<section class="w-full bg-blue-950 text-white py-20 text-center">
+  <h2 class="text-3xl font-bold mb-6">چرا هوشرو؟</h2>
+
+  <p class="text-lg mb-3">
+    ما فقط یک ارائه دهنده سرویس نیستیم، شریک رشد شما هستیم.
+  </p>
+
+  <p class="text-lg mb-3">
+    با تجربه‌ی گسترده در صنایع مختلف و تیمی متشکل از متخصصان داده، هوش مصنوعی و توسعه نرم‌افزار، ما می‌توانیم
+  </p>
+
+  <p class="text-lg">
+    راهکارهایی بسازیم که دقیقا متناسب با نیاز شما باشد. تمرکز ما روی نتایج واقعی و پایدار است، نه صرفاً تکنولوژی.
+  </p>
+</section>
+</div>
+
+
+<section class="bg-gray-50 text-gray-800">
+<div class="max-w-6xl mx-auto px-4 py-12">
+<div class="flex flex-col lg:flex-row items-center lg:items-start gap-8">
+<!-- Left image -->
+<div class="flex w-full lg:w-1/2">
+<img src="img/Copilot_20250908_200330 1.png" alt="robot handshake" class="w-full h-auto items-center" />
+</div>
+
+<!-- Right content -->
+<div class="w-full lg:w-1/2 grid grid-cols-1 sm:grid-cols-2 gap-6">
+<!-- Card 1 -->
+<div class="bg-white p-6 rounded-lg shadow-lg flex flex-col items-start hover:shadow-xl transition-shadow">
+<div class="text-blue-600 mb-4">
+<!-- placeholder for icon -->
+<img src="img/cyber-eye-3.png" class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24" alt="">
+</div>
+<h3 class="text-xl font-semibold mb-2">کنترل در لحظه، بدون نگرانی</h3>
+<p class="text-gray-600 leading-relaxed text-sm">
+ابزارهای هوشمند ما عملکرد سازمان را به صورت لحظه‌ای پایش می‌کنند و مدیران میتوانند بدون دغدغه بر فرآیندها تمرکز کنند.
+</p>
+</div>
+
+<!-- Card 2 -->
+<div class="bg-white p-6 rounded-lg shadow-lg flex flex-col items-start hover:shadow-xl transition-shadow">
+<div class="text-blue-600 mb-4">
+<img src="img/cyber-eye-3.png" class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24" alt="">
+</div>
+<h3 class="text-xl font-semibold mb-2">عملیات خودکار، کارایی حداکثری</h3>
+<p class="text-gray-600 leading-relaxed text-sm">
+فرآیندهای تکراری و پیچیده با کمک هوش مصنوعی و اتوماسیون کاهش می‌یابند و سازمان با سرعت و دقت بیشتری پیش می‌رود.
+</p>
+</div>
+
+<!-- Card 3 -->
+<div class="bg-white p-6 rounded-lg shadow-lg flex flex-col items-start hover:shadow-xl transition-shadow col-span-full sm:col-auto">
+<div class="text-blue-600 mb-4">
+<img src="img/cyber-eye-3.png" class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24" alt="">
+</div>
+<h3 class="text-xl font-semibold mb-2">حفاظت هوشمند اطلاعات</h3>
+<p class="text-gray-600 leading-relaxed text-sm">
+داده‌های سازمان شما با استانداردهای بالا و سیستم‌های هوشمند ما محافظت می‌شوند تا امنیت و اطمینان شما حفظ شود.
+</p>
+</div>
+
+<!-- Card 4 -->
+<div class="bg-white p-6 rounded-lg shadow-lg flex flex-col items-start hover:shadow-xl transition-shadow">
+<div class="text-blue-600 mb-4">
+<img src="img/cyber-eye-3.png" class="h-8 w-8" fill="currentColor" viewBox="0 0 24 24" alt="">
+</div>
+<h3 class="text-xl font-semibold mb-2">بینش فوری، تصمیم هوشمند</h3>
+<p class="text-gray-600 leading-relaxed text-sm">
+با تحلیل دقیق داده‌های داخلی و خارجی چشم‌اندازی روشن برای رشد و فرصت‌های کسب‌وکار فراهم می‌کنیم.
+</p>
+</div>
+
+</div>
+</div>
+</div>
+</section>
+
+
+<!-- Footer -->
+<footer class="bg-[#00224f] text-white py-16">
+  <div class="container mx-auto px-4 grid sm:grid-cols-1 md:grid-cols-4 gap-10">
+
+    <!-- ستون 1: عضویت در خبرنامه -->
+    <div class="text-left">
+      <h3 class="font-bold text-lg mb-4">عضویت در خبرنامه</h3>
+      <div class="flex items-center bg-white rounded-2xl overflow-hidden w-full max-w-sm">
+        <input type="email" class="flex-1 px-4 py-2 text-gray-700 outline-none" placeholder="ایمیل خود را وارد کنید">
+        <span class="bg-blue-600 p-3 flex items-center justify-center">
+          <!-- فلش SVG آبی -->
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+          </svg>
+        </span>
+      </div>
+      <p class="mt-3 text-sm text-gray-300">خبرهای جدید را از دست ندهید</p>
+    </div>
+
+    <!-- ستون 2: راه‌های ارتباطی -->
+    <div class="text-left">
+      <h3 class="font-bold text-lg mb-4">راه‌های ارتباطی</h3>
+      <ul class="space-y-2 text-gray-300">
+        <li>آدرس: تهران، خیابان تست</li>
+        <li>ایمیل: <a href="mailto:Hoshro@gmail.com" class="hover:text-blue-400 transition-colors">Hoshro@gmail.com</a></li>
+        <li>تلفن: 021-000000</li>
+      </ul>
+    </div>
+
+    <!-- ستون 3: لینک‌های سریع -->
+    <div class="text-left">
+      <h3 class="font-bold text-lg mb-4">دسترسی سریع</h3>
+      <ul class="space-y-2 text-gray-300">
+        <li><a href="#" class="hover:text-blue-400 transition-colors">درباره ما</a></li>
+        <li><a href="#" class="hover:text-blue-400 transition-colors">ارتباط با ما</a></li>
+        <li><a href="#" class="hover:text-blue-400 transition-colors">وبلاگ</a></li>
+        <li><a href="#" class="hover:text-blue-400 transition-colors">سرویس‌ها</a></li>
+      </ul>
+    </div>
+
+    <!-- ستون 4: لوگو و توضیح شرکت -->
+    <div class="text-left flex flex-col items-start">
+      <img src="img/logo.png" alt="Hoshro Logo" class="h-20 w-auto mb-4 ">
+      <p class="text-gray-300 leading-6 max-w-xs">
+        هوشرو یک مجموعه نوآور در حوزه فناوری‌های هوشمند است که با استفاده از راهکارهای مبتنی بر داده و اتوماسیون، کسب‌وکار شما را هوشمند می‌کند.
+      </p>
+    </div>
+
+  </div>
+
+  <p class="text-center text-gray-400 mt-10 text-sm">© 2025 Hoshro. کلیه حقوق محفوظ است.</p>
+</footer>
+
+
+</body>
+</html>

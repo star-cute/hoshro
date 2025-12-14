@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogPage</title>
+    <link rel="stylesheet" href="output.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    
+<!-- Header -->
+    <header class="flex justify-between items-center h-[100px] px-6 bg-white shadow-md">
+        <!-- دکمه تماس -->
+        <div class="flex items-center">
+          <button class="bg-blue-500 text-white py-2 px-4 rounded-lg hidden md:block">تماس بگیرید</button>
+        </div>
+      
+        <!-- منو وسط -->
+        <nav class="flex-1 flex justify-center">
+          <ul class="hidden md:flex space-x-6">
+            <li><a href="blogs.html" class="hover:text-blue-600">وبلاگ</a></li>
+      <li><a href="work.html" class="hover:text-blue-600">همکاری با ما</a></li>
+      <li><a href="contact.html" class="hover:text-blue-600">ارتباط با ما</a></li>
+      <li><a href="about.html" class="hover:text-blue-600">درباره ما</a></li>
+      <li><a href="services.html" class="hover:text-blue-600">سرویس ها</a></li>
+          </ul>
+        </nav>
+      
+        <!-- لوگو -->
+        <div class="flex items-center">
+          <a href="index.html"><img src="img/LOGO (2).png" alt="لوگو" class="h-10"></a>
+        </div>
+      
+        <!-- همبرگر منو موبایل -->
+        <div class="md:hidden flex items-center">
+          <button id="menu-btn" class="focus:outline-none">
+            <svg class="w-6 h-6 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+      </header>
+      
+      <!-- منو موبایل -->
+      <div id="mobile-menu" class="hidden md:hidden bg-white shadow-md">
+        <ul class="flex flex-col p-4 space-y-3">
+          <li><a href="#" class="text-black no-underline hover:text-blue-500">وبلاگ</a></li>
+          <li><a href="#" class="text-black no-underline hover:text-blue-500">همکاری با ما</a></li>
+          <li><a href="contact.html" class="text-black no-underline hover:text-blue-500">ارتباط با ما</a></li>
+          <li><a href="about.html" class="text-black no-underline hover:text-blue-500">درباره ما</a></li>
+          <li><a href="#" class="text-black no-underline hover:text-blue-500">سرویس ها</a></li>
+          <li><button class="bg-blue-500 text-blue-200 py-2 px-4 rounded-lg w-full">تماس بگیرید</button></li>
+        </ul>
+      </div>
+
+
+<section class="bg-gray-50 text-gray-800">
+
+  <div class="max-w-7xl mx-auto px-4 py-12">
+
+    <!-- Header of the article -->
+    <div class="mb-12">
+      <img src="https://images.pexels.com/photos/5077045/pexels-photo-5077045.jpeg" alt="AI Image" class="w-full h-72 object-cover rounded-lg shadow-md mb-6">
+      <h1 class="text-4xl font-semibold text-blue-700 mb-4">۵ روند کلیدی هوش مصنوعی در سال ۲۰۲۵ که باید بدانید</h1>
+      <p class="text-lg text-gray-600 mb-6">در این مقاله، به بررسی پنج روند کلیدی هوش مصنوعی می‌پردازیم که در آینده نزدیک می‌توانند تأثیر زیادی بر صنعت‌ها داشته باشند.</p>
+    </div>
+
+    <!-- 5 Key Trends Section -->
+    <div class="space-y-12">
+      
+      <!-- Key Trend 1 -->
+      <div class="flex flex-col lg:flex-row gap-8 mb-12">
+        <div class="lg:w-1/2">
+          <img src="https://images.pexels.com/photos/5077045/pexels-photo-5077045.jpeg" alt="AI Image 1" class="w-full h-64 object-cover rounded-lg shadow-md">
+        </div>
+        <div class="lg:w-1/2">
+          <h2 class="text-3xl font-semibold text-blue-700 mb-4">۱. رشد عامل‌های هوش مصنوعی خودران (Autonomous AI Agents)</h2>
+          <p class="text-lg text-gray-600 leading-relaxed">
+            عامل‌های هوش مصنوعی خودران در آینده به‌طور گسترده‌ای در صنایع مختلف استفاده خواهند شد. این سیستم‌ها قادر به انجام تصمیم‌گیری‌های پیچیده و بهبود کارایی فرآیندها به صورت خودکار خواهند بود.
+          </p>
+        </div>
+      </div>
+
+      <!-- Key Trend 2 -->
+      <div class="flex flex-col lg:flex-row gap-8 mb-12">
+        <div class="lg:w-1/2">
+          <img src="https://images.pexels.com/photos/5077045/pexels-photo-5077045.jpeg" alt="AI Image 2" class="w-full h-64 object-cover rounded-lg shadow-md">
+        </div>
+        <div class="lg:w-1/2">
+          <h2 class="text-3xl font-semibold text-blue-700 mb-4">۲. هوش مصنوعی در لبه شبکه (Edge AI)</h2>
+          <p class="text-lg text-gray-600 leading-relaxed">
+            فناوری Edge AI به سیستم‌های هوش مصنوعی اطلاق می‌شود که در دستگاه‌هایی نزدیک به منبع داده‌ها اجرا می‌شوند. این امر می‌تواند تاخیر پردازش داده‌ها را کاهش دهد و سرعت عملکرد را بهبود بخشد.
+          </p>
+        </div>
+      </div>
+
+      <!-- Key Trend 3 -->
+      <div class="flex flex-col lg:flex-row gap-8 mb-12">
+        <div class="lg:w-1/2">
+          <img src="https://images.pexels.com/photos/5077045/pexels-photo-5077045.jpeg" alt="AI Image 3" class="w-full h-64 object-cover rounded-lg shadow-md">
+        </div>
+        <div class="lg:w-1/2">
+          <h2 class="text-3xl font-semibold text-blue-700 mb-4">۳. هوش مصنوعی چندوجهی (Multimodal AI)</h2>
+          <p class="text-lg text-gray-600 leading-relaxed">
+            هوش مصنوعی چندوجهی، سیستمی است که توانایی پردازش اطلاعات از چندین ورودی مختلف مانند متن، تصویر و صوت را دارد و می‌تواند تحلیل‌های پیچیده‌تر و دقیق‌تری را انجام دهد.
+          </p>
+        </div>
+      </div>
+
+      <!-- Key Trend 4 -->
+      <div class="flex flex-col lg:flex-row gap-8 mb-12">
+        <div class="lg:w-1/2">
+          <img src="https://images.pexels.com/photos/5077045/pexels-photo-5077045.jpeg" alt="AI Image 4" class="w-full h-64 object-cover rounded-lg shadow-md">
+        </div>
+        <div class="lg:w-1/2">
+          <h2 class="text-3xl font-semibold text-blue-700 mb-4">۴. هوش مصنوعی قابل توضیح و مسئولیت‌پذیر (Explainable & Responsible AI)</h2>
+          <p class="text-lg text-gray-600 leading-relaxed">
+            ایجاد سیستم‌های هوش مصنوعی که قابل توضیح باشند و در عین حال مسئولیت‌پذیر باشند، چالشی بزرگ در مسیر توسعه این فناوری به شمار می‌آید.
+          </p>
+        </div>
+      </div>
+
+      <!-- Key Trend 5 -->
+      <div class="flex flex-col lg:flex-row gap-8 mb-12">
+        <div class="lg:w-1/2">
+          <img src="https://images.pexels.com/photos/5077045/pexels-photo-5077045.jpeg" alt="AI Image 5" class="w-full h-64 object-cover rounded-lg shadow-md">
+        </div>
+        <div class="lg:w-1/2">
+          <h2 class="text-3xl font-semibold text-blue-700 mb-4">۵. تجربه در زمان واقعی و قابلیت‌های هوشمند (Real-time Experience & Smart Capabilities)</h2>
+          <p class="text-lg text-gray-600 leading-relaxed">
+            تجربه‌های هوش مصنوعی در زمان واقعی، مانند پردازش آنی داده‌ها، می‌توانند برای بهینه‌سازی فرآیندهای کسب‌وکار و بهبود تجربه کاربران بسیار مفید باشند.
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Related Articles -->
+    <div class="mt-16">
+      <h2 class="text-3xl font-semibold text-blue-700 mb-6">مقالات مرتبط</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6">
+        
+        <!-- Related Article 1 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img src="https://images.pexels.com/photos/5077045/pexels-photo-5077045.jpeg" alt="AI Related Article 1" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-semibold text-blue-600">روند پیشرفت هوش مصنوعی در ۲۰۲۵</h3>
+            <p class="text-gray-600 text-sm">در این مقاله، به بررسی روندهای کلیدی هوش مصنوعی در سال ۲۰۲۵ پرداخته‌ایم...</p>
+          </div>
+        </div>
+
+        <!-- Related Article 2 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img src="https://images.pexels.com/photos/5077045/pexels-photo-5077045.jpeg" alt="AI Related Article 2" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-semibold text-blue-600">هوش مصنوعی در صنایع مختلف</h3>
+            <p class="text-gray-600 text-sm">هوش مصنوعی در صنایع مختلف کاربردهای وسیعی پیدا کرده است. در این مقاله بیشتر بخوانید...</p>
+          </div>
+        </div>
+
+        <!-- Related Article 3 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+          <img src="https://images.pexels.com/photos/5077045/pexels-photo-5077045.jpeg" alt="AI Related Article 3" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-semibold text-blue-600">چالش‌های اخلاقی در هوش مصنوعی</h3>
+            <p class="text-gray-600 text-sm">در این مقاله، به بررسی چالش‌های اخلاقی و مسئولیت‌های هوش مصنوعی پرداخته‌ایم...</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- Footer -->
+<footer class="bg-[#00224f] text-white py-16">
+  <div class="container mx-auto px-4 grid sm:grid-cols-1 md:grid-cols-4 gap-10">
+
+    <!-- ستون 1: عضویت در خبرنامه -->
+    <div class="text-left">
+      <h3 class="font-bold text-lg mb-4">عضویت در خبرنامه</h3>
+      <div class="flex items-center bg-white rounded-2xl overflow-hidden w-full max-w-sm">
+        <input type="email" class="flex-1 px-4 py-2 text-gray-700 outline-none" placeholder="ایمیل خود را وارد کنید">
+        <span class="bg-blue-600 p-3 flex items-center justify-center">
+          <!-- فلش SVG آبی -->
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+          </svg>
+        </span>
+      </div>
+      <p class="mt-3 text-sm text-gray-300">خبرهای جدید را از دست ندهید</p>
+    </div>
+
+    <!-- ستون 2: راه‌های ارتباطی -->
+    <div class="text-left">
+      <h3 class="font-bold text-lg mb-4">راه‌های ارتباطی</h3>
+      <ul class="space-y-2 text-gray-300">
+        <li>آدرس: تهران، خیابان تست</li>
+        <li>ایمیل: <a href="mailto:Hoshro@gmail.com" class="hover:text-blue-400 transition-colors">Hoshro@gmail.com</a></li>
+        <li>تلفن: 021-000000</li>
+      </ul>
+    </div>
+
+    <!-- ستون 3: لینک‌های سریع -->
+    <div class="text-left">
+      <h3 class="font-bold text-lg mb-4">دسترسی سریع</h3>
+      <ul class="space-y-2 text-gray-300">
+        <li><a href="#" class="hover:text-blue-400 transition-colors">درباره ما</a></li>
+        <li><a href="#" class="hover:text-blue-400 transition-colors">ارتباط با ما</a></li>
+        <li><a href="#" class="hover:text-blue-400 transition-colors">وبلاگ</a></li>
+        <li><a href="#" class="hover:text-blue-400 transition-colors">سرویس‌ها</a></li>
+      </ul>
+    </div>
+
+    <!-- ستون 4: لوگو و توضیح شرکت -->
+    <div class="text-left flex flex-col items-start">
+      <img src="img/logo.png" alt="Hoshro Logo" class="h-20 w-auto mb-4 ">
+      <p class="text-gray-300 leading-6 max-w-xs">
+        هوشرو یک مجموعه نوآور در حوزه فناوری‌های هوشمند است که با استفاده از راهکارهای مبتنی بر داده و اتوماسیون، کسب‌وکار شما را هوشمند می‌کند.
+      </p>
+    </div>
+
+  </div>
+
+  <p class="text-center text-gray-400 mt-10 text-sm">© 2025 Hoshro. کلیه حقوق محفوظ است.</p>
+</footer>
+
+</body>
+</html>

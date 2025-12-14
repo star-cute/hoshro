@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ServicePage</title>
+    <link rel="stylesheet" href="output.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    
+<!-- Header -->
+<header class="flex justify-between items-center h-[100px] px-6 bg-white shadow-md">
+    <!-- دکمه تماس -->
+    <div class="flex items-center">
+      <button class="bg-blue-500 text-white py-2 px-4 rounded-lg hidden md:block">تماس بگیرید</button>
+    </div>
+  
+    <!-- منو وسط -->
+    <nav class="flex-1 flex justify-center">
+      <ul class="hidden md:flex space-x-6">
+        <li><a href="blogs.html" class="hover:text-blue-600">وبلاگ</a></li>
+  <li><a href="work.html" class="hover:text-blue-600">همکاری با ما</a></li>
+  <li><a href="contact.html" class="hover:text-blue-600">ارتباط با ما</a></li>
+  <li><a href="about.html" class="hover:text-blue-600">درباره ما</a></li>
+  <li><a href="services.html" class="hover:text-blue-600">سرویس ها</a></li>
+      </ul>
+    </nav>
+  
+    <!-- لوگو -->
+    <div class="flex items-center">
+      <a href="index.html"><img src="img/LOGO (2).png" alt="لوگو" class="h-10"></a>
+    </div>
+  
+    <!-- همبرگر منو موبایل -->
+    <div class="md:hidden flex items-center">
+      <button id="menu-btn" class="focus:outline-none">
+        <svg class="w-6 h-6 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+    </div>
+  </header>
+  
+  <!-- منو موبایل -->
+  <div id="mobile-menu" class="hidden md:hidden bg-white shadow-md">
+    <ul class="flex flex-col p-4 space-y-3">
+      <li><a href="#" class="text-black no-underline hover:text-blue-500">وبلاگ</a></li>
+      <li><a href="#" class="text-black no-underline hover:text-blue-500">همکاری با ما</a></li>
+      <li><a href="contact.html" class="text-black no-underline hover:text-blue-500">ارتباط با ما</a></li>
+      <li><a href="about.html" class="text-black no-underline hover:text-blue-500">درباره ما</a></li>
+      <li><a href="#" class="text-black no-underline hover:text-blue-500">سرویس ها</a></li>
+      <li><button class="bg-blue-500 text-blue-200 py-2 px-4 rounded-lg w-full">تماس بگیرید</button></li>
+    </ul>
+  </div>
+
+
+
+
+    <section class="bg-gray-50 text-gray-800 font-sans">
+
+
+    </div>
+    </section>
+    
+    
+    <!-- مزایا -->
+    <section class="bg-white py-16">
+    <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+    
+    
+    <div class="flex justify-center">
+    <img src="erp2.jpg" class="rounded-xl shadow-lg max-w-sm" />
+    </div>
+    
+    
+    <div class="space-y-4">
+    <h2 class="text-2xl font-bold text-gray-900">مزایای هوشرو</h2>
+    <p class="text-gray-600 leading-relaxed">سرعت بالا در پردازش اطلاعات و مدیریت فرآیندها</p>
+    <p class="text-gray-600 leading-relaxed">امنیت اطلاعات در سطح سازمانی</p>
+    <p class="text-gray-600 leading-relaxed">گزارش‌گیری دقیق و تحلیلی</p>
+    </div>
+    
+    
+    </div>
+    </section>
+    
+    
+    <!-- ماژول‌ها -->
+    <section class="py-20 bg-gray-100">
+        <div class="max-w-6xl mx-auto px-6">
+          <h2 class="text-2xl md:text-3xl font-bold text-center mb-12">ماژول های ERP ما</h2>
+      
+          <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+            
+            <div class="bg-white p-6 rounded-xl shadow text-center space-y-3">
+              <img src="icon1.png" class="mx-auto w-12" />
+              <h4 class="font-bold text-lg">مدیریت ارتباط با مشتری</h4>
+              <p class="text-gray-600 text-sm">بهبود ارتباط با مشتریان و ثبت تعاملات</p>
+            </div>
+      
+            <div class="bg-white p-6 rounded-xl shadow text-center space-y-3">
+              <img src="icon2.png" class="mx-auto w-12" />
+              <h4 class="font-bold text-lg">سیستم مالی و حسابداری</h4>
+              <p class="text-gray-600 text-sm">کنترل دقیق مالی با گزارش‌گیری شفاف</p>
+            </div>
+      
+            <div class="bg-white p-6 rounded-xl shadow text-center space-y-3">
+              <img src="icon3.png" class="mx-auto w-12" />
+              <h4 class="font-bold text-lg">مدیریت منابع انسانی</h4>
+              <p class="text-gray-600 text-sm">مدیریت کارکنان، حضور و غیاب و عملکرد</p>
+            </div>
+      
+            <!-- کارت چهارم -->
+            <div class="bg-white p-6 rounded-xl shadow text-center space-y-3">
+              <img src="icon4.png" class="mx-auto w-12" />
+              <h4 class="font-bold text-lg">مدیریت انبار و تولید</h4>
+              <p class="text-gray-600 text-sm">کنترل موجودی، ردیابی کالا و مدیریت فرآیند تولید</p>
+            </div>
+      
+          </div>
+        </div>
+      </section>
+      
+    
+    
+    <!-- بخش آخر -->
+    <section class="bg-gray-900 text-gray-300 py-14">
+    <div class="max-w-6xl mx-auto px-6 text-center space-y-6">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <div>
+    <h4 class="font-bold mb-2">سرعت بالا</h4>
+    <p class="text-sm">بهبود چشمگیر سرعت پردازش سازمانی</p>
+    </div>
+    <div>
+    <h4 class="font-bold mb-2">قابلیت سفارشی‌سازی</h4>
+    <p class="text-sm">سازگار با هر نوع نیاز سازمانی</p>
+    </div>
+    <div>
+    <h4 class="font-bold mb-2">پشتیبانی مستمر</h4>
+    <p class="text-sm">همراه شما در تمام مراحل</p>
+    </div>
+    </div>
+    
+    
+    <p class="text-sm mt-6">© 2025 SmartCo — تمامی حقوق محفوظ است.</p>
+    </div>
+    </section>
+    
+    
+</section>
+
+
+<!-- Footer -->
+<footer class="bg-[#00224f] text-white py-16">
+    <div class="container mx-auto px-4 grid sm:grid-cols-1 md:grid-cols-4 gap-10">
+  
+      <!-- ستون 1: عضویت در خبرنامه -->
+      <div class="text-left">
+        <h3 class="font-bold text-lg mb-4">عضویت در خبرنامه</h3>
+        <div class="flex items-center bg-white rounded-2xl overflow-hidden w-full max-w-sm">
+          <input type="email" class="flex-1 px-4 py-2 text-gray-700 outline-none" placeholder="ایمیل خود را وارد کنید">
+          <span class="bg-blue-600 p-3 flex items-center justify-center">
+            <!-- فلش SVG آبی -->
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </span>
+        </div>
+        <p class="mt-3 text-sm text-gray-300">خبرهای جدید را از دست ندهید</p>
+      </div>
+  
+      <!-- ستون 2: راه‌های ارتباطی -->
+      <div class="text-left">
+        <h3 class="font-bold text-lg mb-4">راه‌های ارتباطی</h3>
+        <ul class="space-y-2 text-gray-300">
+          <li>آدرس: تهران، خیابان تست</li>
+          <li>ایمیل: <a href="mailto:Hoshro@gmail.com" class="hover:text-blue-400 transition-colors">Hoshro@gmail.com</a></li>
+          <li>تلفن: 021-000000</li>
+        </ul>
+      </div>
+  
+      <!-- ستون 3: لینک‌های سریع -->
+      <div class="text-left">
+        <h3 class="font-bold text-lg mb-4">دسترسی سریع</h3>
+        <ul class="space-y-2 text-gray-300">
+          <li><a href="#" class="hover:text-blue-400 transition-colors">درباره ما</a></li>
+          <li><a href="#" class="hover:text-blue-400 transition-colors">ارتباط با ما</a></li>
+          <li><a href="#" class="hover:text-blue-400 transition-colors">وبلاگ</a></li>
+          <li><a href="#" class="hover:text-blue-400 transition-colors">سرویس‌ها</a></li>
+        </ul>
+      </div>
+  
+      <!-- ستون 4: لوگو و توضیح شرکت -->
+      <div class="text-left flex flex-col items-start">
+        <img src="img/logo.png" alt="Hoshro Logo" class="h-20 w-auto mb-4 ">
+        <p class="text-gray-300 leading-6 max-w-xs">
+          هوشرو یک مجموعه نوآور در حوزه فناوری‌های هوشمند است که با استفاده از راهکارهای مبتنی بر داده و اتوماسیون، کسب‌وکار شما را هوشمند می‌کند.
+        </p>
+      </div>
+  
+    </div>
+  
+    <p class="text-center text-gray-400 mt-10 text-sm">© 2025 Hoshro. کلیه حقوق محفوظ است.</p>
+  </footer>
+
+
+</body>
+</html>
